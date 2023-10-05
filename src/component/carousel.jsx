@@ -17,6 +17,11 @@ const Carouselslide = () => {
           </div>
         ))}
       </Carousel>
+      <section className="CTA__button">
+        <button>
+          <p>Get Started</p>
+        </button>
+      </section>
     </section>
   );
 };
