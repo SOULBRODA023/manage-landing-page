@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./component/Header";
 import Body from "./component/Body";
 import Carousel from "./component/carousel";
+import Footer from "./component/footer";
 import "../dist/style.css";
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
         <Body />
         <Carousel />
       </body>
+
+      <footer>
+        <Footer />
+      </footer>
     </section>
   );
 }
