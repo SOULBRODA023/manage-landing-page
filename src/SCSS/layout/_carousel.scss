@@ -1,0 +1,38 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem; 
+  img{
+    align-self: center;
+    width:4.5rem;
+    margin-top:1.8rem;
+  }
+  h4{
+  color:var(--textcolor)
+  }
+  p{
+   
+    width:19rem;
+    font-size:0.9rem;
+    line-height:2;
+    color:var(--paragraphcolor);
+    padding-bottom:1.8rem;
+  }
+}
+
+
+div.css-1l7c0cy{
+  display:grid;
+  justify-content: center;
+}
+.carousel{
+  h1{
+    color: var(--textcolor);
+    font-size:1.8rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+}

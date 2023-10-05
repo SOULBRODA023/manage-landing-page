@@ -1,8 +1,6 @@
 import { useState } from "react";
 import data from "../data.json";
-import Slider from "./Slider";
 const Body = () => {
- 
   const [info, setInfo] = useState(data);
   // const [currentslide, setCurrentSlide] = useState(0);
   // const nextSlide = () => {
@@ -67,7 +65,6 @@ const Body = () => {
             <p>{infos.content}</p>
           </div>
         ))}
-        <Slider info={info} />
       </section>
     </>
   );
