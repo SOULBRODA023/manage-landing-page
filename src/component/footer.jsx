@@ -9,6 +9,17 @@ const Footer = () => {
           </button>
         </section>
       </section>
+
+      <section className="footer__secondlayer">
+        <section className="input">
+          <form>
+            <input type="email" className="input__email" />
+            <button type="submit">
+              <p>GO</p>
+            </button>
+          </form>
+        </section>
+      </section>
     </section>
   );
 };
