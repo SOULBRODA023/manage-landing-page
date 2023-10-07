@@ -2,26 +2,12 @@ import { useState } from "react";
 import data from "../data.json";
 const Body = () => {
   const [info, setInfo] = useState(data);
-  // const [currentslide, setCurrentSlide] = useState(0);
-  // const nextSlide = () => {
-  //   const goToNextSlide = () => {
-  //     setCurrentSlide((prevSlide) =>
-  //       prevSlide === slidesData.length - 1 ? 0 : prevSlide + 1
-  //     );
-  //   };
-  // useEffect(() => {
-  //   const interval = setInterval(goToNextSlide, 3000);
-  //   return () => clearInterval(interval);
-  // }, []);
+
   return (
     <>
+    
       <section className="body">
         <section className="heroImage">
-          <img
-            src="./images/bg-tablet-pattern.svg"
-            className="body__tablet"
-            alt=""
-          />
           <img
             src="./images/illustration-intro.svg"
             alt="illustration"
@@ -30,11 +16,7 @@ const Body = () => {
         </section>
 
         <section className="hero">
-          <img
-            src="./images/bg-tablet-pattern.svg"
-            alt=""
-            className="hero__tablet"
-          />
+       
           <h1 className="hero__text">
             Bring everyone together to build better products{" "}
             <span className="period">.</span>
