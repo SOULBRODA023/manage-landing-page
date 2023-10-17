@@ -1,10 +1,9 @@
-import Header from "./component/Header";
-import FirstSection from "./component/FirstSection";
-import SecondSection from "./component/SecondSection";
-import Carousel from "./component/carousel";
-import ThirdSection from "./component/Footer";
+import Header from "./Header";
+import FirstSection from "./FirstSection";
+import SecondSection from "./SecondSection";
+import Carousel from "./carousel";
+import ThirdSection from "./ThirdSection";
 import "./src/style.css";
-
 
 function App() {
   return (
