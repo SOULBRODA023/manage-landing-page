@@ -1,0 +1,129 @@
+.footer {
+  &__firstlayer {
+    background: var(--clr-primary-1);
+    min-height: 20rem;
+    margin-top: 2rem;
+    padding: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      width: 20rem;
+      color: var(--clr-Neutral-4);
+    }
+  }
+  .CTA__button {
+    display: grid;
+    justify-content: center;
+  }
+  button.btn-Neutral-4 {
+    p {
+      color: var(--clr-primary-1);
+    }
+  }
+  &__secondlayer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--clr-Neutral-2);
+    padding: 2rem 4rem;
+    gap: 2rem;
+    .input {
+      grid-column: 3;
+      form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        input {
+          width: 13rem;
+          border-radius: 1.5rem;
+          padding-inline-start: 1rem;
+          height: 2.5rem;
+          border: none;
+        }
+        button.btn-primary-1 {
+          height: 2.5rem;
+          width: 5rem;
+          border-radius: 1.5rem;
+          p {
+            color: var(--clr-Neutral-4);
+          }
+        }
+      }
+    }
+    .links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6rem;
+      grid-column: 2;
+      grid-row: 1;
+      ul {
+        li {
+          padding-bottom: 0.8rem;
+          color: var(--clr-Neutral-4);
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .socials {
+      display: grid;
+      gap: 2.5rem;
+      grid-column: 1;
+      grid-row: 1;
+      .account {
+        display: flex;
+        gap: 1rem;
+      }
+      .logo {
+        grid-row: 1;
+      }
+    }
+  }
+  @media (max-width: 50em) {
+    .footer__secondlayer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem 1rem;
+
+      .input {
+        form {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 2rem;
+          input {
+            width: 13rem;
+            border-radius: 1rem;
+            height: 2.5rem;
+            border: none;
+          }
+          button.btn-primary-1 {
+            height: 2.5rem;
+            width: 5rem;
+            border-radius: 1.5rem;
+            p {
+              color: var(--clr-Neutral-4);
+            }
+          }
+        }
+      }
+      .links {
+        gap: 2rem;
+        place-self: center;
+      }
+      .socials {
+        place-self: center;
+        .logo {
+          grid-row: 2;
+        }
+      }
+      .footer__text {
+        text-align: center;
+      }
+    }
+  }
+}

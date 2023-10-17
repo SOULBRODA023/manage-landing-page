@@ -1,0 +1,17 @@
+@use "../globals/colors" as *;
+@use "../util/utilityclasses";
+@each $color, $shades in $colors {
+  @each $shade, $value in $shades {
+    .btn-#{$color}-#{$shade} {
+      color: $value;
+      text-align: center;
+      background-color: $value;
+      border: none;
+      border-radius: 1.5rem;
+      width: 8rem;
+      height: 2.5rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+}

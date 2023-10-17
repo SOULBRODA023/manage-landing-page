@@ -1,10 +1,11 @@
+import { Form } from "react-hook-form";
 const Footer = () => {
   return (
     <section className="footer">
       <section className="footer__firstlayer">
         <h1>Simplify how your team works today.</h1>
         <section className="CTA__button">
-          <button>
+          <button className="btn-Neutral-4">
             <p>Get Started</p>
           </button>
         </section>
@@ -18,7 +19,7 @@ const Footer = () => {
               className="input__email"
               placeholder="Updates in your inbox..."
             />
-            <button type="submit">
+            <button type="submit" className="btn-primary-1 | go">
               <p>GO</p>
             </button>
           </form>
@@ -52,49 +53,53 @@ const Footer = () => {
           </ul>
         </section>
         <section className="socials">
-          <a href="">
+          <div className="account">
+            <a href="">
+              <img
+                src="./images/icon-facebook.svg"
+                alt="Facebook link"
+                className="social__links"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./images/icon-youtube.svg"
+                alt="youtube link"
+                className="social__links"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./images/icon-twitter.svg"
+                alt="Twitter link"
+                className="social__links"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./images/icon-pinterest.svg"
+                alt="Pinterest link"
+                className="social__links"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./images/icon-instagram.svg"
+                alt="Instagram link"
+                className="social__links"
+              />
+            </a>
+          </div>
+
+          <div className="logo">
             <img
-              src="./images/icon-facebook.svg"
-              alt="Facebook link"
-              className="social__links"
+              src="./images/logo-white.svg"
+              alt="company's logo"
+              className="footer__logo"
             />
-          </a>
-          <a href="">
-            <img
-              src="./images/icon-youtube.svg"
-              alt="youtube link"
-              className="social__links"
-            />
-          </a>
-          <a href="">
-            <img
-              src="./images/icon-twitter.svg"
-              alt="Twitter link"
-              className="social__links"
-            />
-          </a>
-          <a href="">
-            <img
-              src="./images/icon-pinterest.svg"
-              alt="Pinterest link"
-              className="social__links"
-            />
-          </a>
-          <a href="">
-            <img
-              src="./images/icon-instagram.svg"
-              alt="Instagram link"
-              className="social__links"
-            />
-          </a>
+          </div>
         </section>
-        <div className="logo">
-          <img
-            src="./images/logo-white.svg"
-            alt="company's logo"
-            className="footer__logo"
-          />
-        </div>
+
         <p className="footer__text">copyright 2020. all rights reserved</p>
       </section>
     </section>

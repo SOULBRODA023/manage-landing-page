@@ -1,0 +1,120 @@
+.second {
+  display: grid;
+
+  .container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap:2rem;
+
+    &__one {
+      padding-inline:4rem;
+      margin-top: 4.5rem;
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        line-height: 1.5;
+        margin-top: 2rem;
+        max-width:28rem;
+        
+        
+      }
+    }
+
+    &__two {
+      margin-top: 4rem;
+
+      .container__child {
+        padding-left: 1rem;
+        .title {
+          display: flex;
+          gap: 1rem;
+        }
+        p {
+          width: 23rem;
+          padding-top: 0.5rem;
+          padding-bottom: 3rem;
+          line-height: 1.5;
+          font-size: 0.9rem;
+          margin-left: 5rem;
+        }
+        h5 {
+          font-size: 1rem;
+          display: grid;
+          place-content: center;
+        }
+        h5:first-child {
+          background-color: var(--clr-primary-1);
+          color:var(--clr-Neutral-4);
+          height: 2.5rem;
+          width: 4rem;
+          border-radius: 1.5rem;
+        }
+        h5:last-child {
+          color: var(--clr-primary-2);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 50rem) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &__one {
+        text-align: center;
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          line-height: 1.5;
+          margin-top: 2rem;
+          max-width:28rem;
+          margin-inline:auto;
+         
+        }
+      }
+      &__two {
+        margin-top: 3rem;
+
+        .container__child {
+          padding-left: 1rem;
+          .title {
+            display: flex;
+            gap: 1rem;
+            background-color: var(--clr-Neutral-3);
+            border-top-left-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
+          }
+          p {
+            width: 22rem;
+            padding-top: 1rem;
+            padding-bottom: 3.3rem;
+            line-height: 1.7;
+            font-size: 0.9rem;
+            margin-left:0;
+          }
+          h5 {
+            font-size: 1rem;
+            display: grid;
+            place-content: center;
+          }
+          h5:first-child {
+            background-color: var(--clr-primary-1);
+            height: 2.5rem;
+            width: 4rem;
+            border-radius: 1.5rem;
+          }
+          h5:last-child {
+            color: var(--clr-primary-2);
+            padding-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
