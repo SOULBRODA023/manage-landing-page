@@ -3,7 +3,8 @@ import FirstSection from "./component/FirstSection";
 import SecondSection from "./component/SecondSection";
 import Carousel from "./component/carousel";
 import ThirdSection from "./component/Footer";
-import "src/style.css";
+import "./src/style.css";
+
 
 function App() {
   return (
