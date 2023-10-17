@@ -1,4 +1,4 @@
-import Data from "../data.json";
+import Data from "./data.json";
 import { useState } from "react";
 const secondSection = () => {
    const [myData, setMyData] = useState(Data);

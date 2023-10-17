@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import data from "../data.json";
+import data from "./data.json";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
