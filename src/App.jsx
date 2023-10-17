@@ -3,8 +3,7 @@ import FirstSection from "./FirstSection";
 import SecondSection from "./SecondSection";
 import Carousel from "./carousel";
 import ThirdSection from "./ThirdSection";
-import "../dist/style.css"
-
+import "../style.css"
 function App() {
   return (
     <section className="app">
