@@ -1,4 +1,4 @@
-import { Form } from "react-hook-form";
+
 const Footer = () => {
   return (
     <section className="footer">

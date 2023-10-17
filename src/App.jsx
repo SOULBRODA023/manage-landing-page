@@ -12,9 +12,7 @@ function App() {
       <FirstSection />
       <SecondSection />
       <Carousel />
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </section>
   );
 }
