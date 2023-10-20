@@ -56,35 +56,35 @@ const Footer = () => {
           <div className="account">
             <a href="">
               <img
-                src="./images/icon-facebook.svg"
+                src="/images/icon-facebook.svg"
                 alt="Facebook link"
                 className="social__links"
               />
             </a>
             <a href="">
               <img
-                src="./images/icon-youtube.svg"
+                src="/images/icon-youtube.svg"
                 alt="youtube link"
                 className="social__links"
               />
             </a>
             <a href="">
               <img
-                src="./images/icon-twitter.svg"
+                src="/images/icon-twitter.svg"
                 alt="Twitter link"
                 className="social__links"
               />
             </a>
             <a href="">
               <img
-                src="./images/icon-pinterest.svg"
+                src="/images/icon-pinterest.svg"
                 alt="Pinterest link"
                 className="social__links"
               />
             </a>
             <a href="">
               <img
-                src="./images/icon-instagram.svg"
+                src="/images/icon-instagram.svg"
                 alt="Instagram link"
                 className="social__links"
               />
@@ -93,7 +93,7 @@ const Footer = () => {
 
           <div className="logo">
             <img
-              src="./images/logo-white.svg"
+              src="/images/logo-white.svg"
               alt="company's logo"
               className="footer__logo"
             />

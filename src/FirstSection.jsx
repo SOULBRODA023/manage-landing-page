@@ -3,7 +3,7 @@ const FirstSection = () => {
     <section className="hero">
       <div className="hero__container">
         <img
-          src="./images/illustration-intro.svg"
+          src="/images/illustration-intro.svg"
           alt=""
           className="illustration"
         />
