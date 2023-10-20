@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useEffect } from "react";
 
 const Header = () => {
   const [modalIsopen, setISModalOpen] = useState(false);
@@ -26,7 +25,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="nav__wrapper">
-          <img src="./images/logo.svg" alt="logo" />
+          <img src="/images/logo.svg" alt="logo" />
           <button
             className="mobile-nav-toggle"
             aria-controls="primary-navigation"
@@ -34,7 +33,7 @@ const Header = () => {
           >
             <span className="visually-hidden">Menu</span>
             <img
-              src="./images/icon-hamburger.svg"
+              src="/images/icon-hamburger.svg"
               alt=""
               onClick={handleModalOpening}
               className="icon-hamburger"

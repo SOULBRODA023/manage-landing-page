@@ -13,18 +13,22 @@ const Carouselslide = () => {
       <h2>What they've said</h2>
       <Swiper
         slidesPerView={1}
+        spaceBetween = {30}
         loop={true}
         pagination={{
           clickable: true,
         }}
         breakpoints={{
-          375: {
+          660: {
             slidesPerView: 1,
-            spaceBetween: 10,
+           
           },
-          1024: {
+          768: {
+            slidesPerView: 2,
+          
+          },
+          1024:{
             slidesPerView: 3,
-            spaceBetween: 30,
           },
         }}
         modules={[Autoplay, Pagination]}
